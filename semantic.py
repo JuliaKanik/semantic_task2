@@ -38,13 +38,13 @@ for sentence in sentences:
 # Run the example file with the simpler language model ‘en_core_web_sm’
 # and write a note on what you notice is different from the model 'en_core_web_md'.
 
-'''After runnung example.py in a different model I got this :UserWarning: [W007] The model you're using has no word vectors loaded, 
+'''After running example.py in a different model I got this :UserWarning: [W007] The model you're using has no word vectors loaded, 
 so the result of the Doc.similarity method will be based on the tagger, parser and NER, which may not give useful similarity judgements. 
 This may happen if you're using one of the small models, e.g. `en_core_web_sm`, which don't ship with word vectors and only use
 context-sensitive tensors. You can always add your own word vectors, or use one of the larger models instead if available.
 Also the numbers were completely different.
 
-After futher reseatch I found out that:
+After futher research I found out that:
 'Accuracy: The en_core_web_md model is more accurate than en_core_web_sm 
 as it has been trained on a larger corpus of data, which means it can recognize
  and parse more complex sentence structures and subtle nuances in language.'
